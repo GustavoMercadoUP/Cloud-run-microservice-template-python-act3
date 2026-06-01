@@ -86,7 +86,7 @@ def new_model():
 # =========================================================
 # PARÁMETROS
 # =========================================================
-bucket_name = st.text_input("Bucket de GCS:", "bucket_131025")
+bucket_name = st.text_input("Bucket de GCS:", "bucket-ml-bd-gusmercado")
 prefix = st.text_input("Prefijo/carpeta:", "tlc_yellow_trips_2022/")
 limite = st.number_input("Filas a procesar por archivo:", value=1000, step=100)
 
